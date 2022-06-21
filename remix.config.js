@@ -1,4 +1,4 @@
-/** @type {import('@remix-run/dev').AppConfig} */
+/** @type {import('@remix-run/dev/config.ts').AppConfig} */
 module.exports = {
   serverBuildTarget: "deno",
   server: "./server.ts",

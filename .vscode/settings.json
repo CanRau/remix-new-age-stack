@@ -1,5 +1,12 @@
 {
+  "deno.config": "./tsconfig.json",
   "deno.enable": true,
-  "deno.importMap": "./.vscode/resolve_npm_imports.json",
-  "deno.lint": true
+  "deno.lint": true,
+  "editor.defaultFormatter": "denoland.vscode-deno",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "denoland.vscode-deno"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "denoland.vscode-deno"
+  }
 }
