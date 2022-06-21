@@ -1,4 +1,10 @@
-# Remix + Deno
+# Remix New-Age Stack
+
+> WIP: This Stack was bootstrapped from the official Remix Deno template. So far
+> some imports (import-map) have been "improved", vscode auto formatting was set
+> to use Deno fmt, the server was replaced with
+> [Oak](https://github.com/oakserver/oak) and the `FLY_REGION` was added to the
+> `x-fly-region` response heade.
 
 Welcome to the Deno template for Remix! 🦕
 
